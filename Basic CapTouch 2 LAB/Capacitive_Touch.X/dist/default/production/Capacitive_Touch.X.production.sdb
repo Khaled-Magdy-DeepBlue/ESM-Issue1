@@ -1,0 +1,321 @@
+[p LITE_MODE AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2550 ]
+[d frameptr 4065 ]
+"26 C:/Users/Khaled Magdy/Desktop/Capacitive_Touch.X/main.c
+[v _main main `(v  1 e 1 0 ]
+"47
+[v _Vref_Init Vref_Init `(v  1 e 1 0 ]
+"51
+[v _Comp_Init Comp_Init `(v  1 e 1 0 ]
+"65
+[v _UART_TX_Init UART_TX_Init `(v  1 e 1 0 ]
+"78
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+"84
+[v _UART_Write_String UART_Write_String `(v  1 e 1 0 ]
+"90
+[v _TMR1_Init TMR1_Init `(v  1 e 1 0 ]
+"103
+[v _Touch_Sense Touch_Sense `(v  1 e 1 0 ]
+"1 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+"72 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _pad pad `(i  1 s 2 pad ]
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+"1368
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"15 C:/Users/Khaled Magdy/Desktop/Capacitive_Touch.X/main.c
+[v _Buffer Buffer `[10]uc  1 e 10 0 ]
+"16
+[v _Ticks Ticks `ul  1 e 4 0 ]
+"4449 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\include\pic18f2550.h
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"4473
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"4634
+[v _CMCON CMCON `VEuc  1 e 1 @4020 ]
+"4724
+[v _CVRCON CVRCON `VEuc  1 e 1 @4021 ]
+"6337
+[v _TMR1 TMR1 `VEus  1 e 2 @4046 ]
+"6344
+[v _TMR1L TMR1L `VEuc  1 e 1 @4046 ]
+"6351
+[v _TMR1H TMR1H `VEuc  1 e 1 @4047 ]
+"7837
+[v _BRG16 BRG16 `VEb  1 e 0 @32195 ]
+"7840
+[v _BRGH BRGH `VEb  1 e 0 @32098 ]
+"7861
+[v _C1OUT C1OUT `VEb  1 e 0 @32166 ]
+"7975
+[v _CMIE CMIE `VEb  1 e 0 @32006 ]
+"7978
+[v _CMIF CMIF `VEb  1 e 0 @32014 ]
+"8530
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"8950
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"9025
+[v _RB0 RB0 `VEb  1 e 0 @31752 ]
+"9064
+[v _RC1 RC1 `VEb  1 e 0 @31761 ]
+"9076
+[v _RC2 RC2 `VEb  1 e 0 @31762 ]
+"9205
+[v _SPEN SPEN `VEb  1 e 0 @32095 ]
+"9286
+[v _SYNC SYNC `VEb  1 e 0 @32100 ]
+"9325
+[v _T1CKPS0 T1CKPS0 `VEb  1 e 0 @32364 ]
+"9328
+[v _T1CKPS1 T1CKPS1 `VEb  1 e 0 @32365 ]
+"9400
+[v _TMR1CS TMR1CS `VEb  1 e 0 @32361 ]
+"9412
+[v _TMR1ON TMR1ON `VEb  1 e 0 @32360 ]
+"9478
+[v _TRISB0 TRISB0 `VEb  1 e 0 @31896 ]
+"9505
+[v _TRISC1 TRISC1 `VEb  1 e 0 @31905 ]
+"9508
+[v _TRISC2 TRISC2 `VEb  1 e 0 @31906 ]
+"9511
+[v _TRISC6 TRISC6 `VEb  1 e 0 @31910 ]
+"9514
+[v _TRISC7 TRISC7 `VEb  1 e 0 @31911 ]
+"9517
+[v _TRMT TRMT `VEb  1 e 0 @32097 ]
+"9577
+[v _TXEN TXEN `VEb  1 e 0 @32101 ]
+"55 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _flags flags `i  1 s 2 flags ]
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"66
+[v _dbuf dbuf `[32]uc  1 s 32 dbuf ]
+"69
+[v _nout nout `i  1 s 2 nout ]
+"26 C:/Users/Khaled Magdy/Desktop/Capacitive_Touch.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"46
+} 0
+"47
+[v _Vref_Init Vref_Init `(v  1 e 1 0 ]
+{
+"50
+} 0
+"65
+[v _UART_TX_Init UART_TX_Init `(v  1 e 1 0 ]
+{
+"77
+} 0
+"103
+[v _Touch_Sense Touch_Sense `(v  1 e 1 0 ]
+{
+"120
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_sprintf.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[s S619 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+"13
+[v sprintf@f f `S619  1 a 6 4 ]
+"12
+[v sprintf@ap ap `[1]*.39v  1 a 2 2 ]
+"11
+[v sprintf@ret ret `i  1 a 2 0 ]
+"9
+[v sprintf@s s `*.39uc  1 p 2 87 ]
+[v sprintf@fmt fmt `*.25Cuc  1 p 2 89 ]
+"23
+} 0
+"1368 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1371
+[v vfprintf@cfmt cfmt `*.25uc  1 a 2 85 ]
+[s S111 _IO_FILE 0 ]
+"1368
+[v vfprintf@fp fp `*.39S111  1 p 2 79 ]
+[v vfprintf@fmt fmt `*.25Cuc  1 p 2 81 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 83 ]
+"1382
+} 0
+"670
+[v _vfpfcnvrt vfpfcnvrt `(i  1 s 2 vfpfcnvrt ]
+{
+"674
+[v vfpfcnvrt@ll ll `o  1 a 8 71 ]
+[s S111 _IO_FILE 0 ]
+"670
+[v vfpfcnvrt@fp fp `*.39S111  1 p 2 63 ]
+[v vfpfcnvrt@fmt fmt `*.39*.25uc  1 p 2 65 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 67 ]
+"1365
+} 0
+"274
+[v _dtoa dtoa `(i  1 s 2 dtoa ]
+{
+"277
+[v dtoa@n n `o  1 a 8 53 ]
+"276
+[v dtoa@i i `i  1 a 2 61 ]
+[v dtoa@s s `i  1 a 2 51 ]
+[v dtoa@w w `i  1 a 2 49 ]
+[v dtoa@p p `i  1 a 2 47 ]
+[s S111 _IO_FILE 0 ]
+"274
+[v dtoa@fp fp `*.39S111  1 p 2 27 ]
+[v dtoa@d d `o  1 p 8 29 ]
+"315
+} 0
+"72
+[v _pad pad `(i  1 s 2 pad ]
+{
+"74
+[v pad@w w `i  1 a 2 25 ]
+[v pad@i i `i  1 a 2 23 ]
+[s S111 _IO_FILE 0 ]
+"72
+[v pad@fp fp `*.39S111  1 p 2 16 ]
+[v pad@buf buf `*.39uc  1 p 2 18 ]
+[v pad@p p `i  1 p 2 20 ]
+"95
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\strlen.c
+[v _strlen strlen `(ui  1 e 2 0 ]
+{
+"14
+[v strlen@a a `*.39Cuc  1 a 2 4 ]
+"12
+[v strlen@s s `*.39Cuc  1 p 2 0 ]
+"26
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+{
+"11
+[v fputs@i i `i  1 a 2 14 ]
+"10
+[v fputs@c c `uc  1 a 1 13 ]
+"8
+[v fputs@s s `*.39Cuc  1 p 2 9 ]
+[s S619 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputs@fp fp `*.39S619  1 p 2 11 ]
+"19
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 0 ]
+[s S619 _IO_FILE 6 `*.39uc 1 buffer 2 0 `i 1 count 2 2 `i 1 limit 2 4 ]
+[v fputc@fp fp `*.39S619  1 p 2 2 ]
+"21
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\putch.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+"9
+} 0
+"1 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\abs.c
+[v _abs abs `(i  1 e 2 0 ]
+{
+[v abs@a a `i  1 p 2 18 ]
+"4
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aomod.c
+[v ___aomod __aomod `(o  1 e 8 0 ]
+{
+"12
+[v ___aomod@sign sign `uc  1 a 1 17 ]
+[v ___aomod@counter counter `uc  1 a 1 16 ]
+"9
+[v ___aomod@dividend dividend `o  1 p 8 0 ]
+[v ___aomod@divisor divisor `o  1 p 8 8 ]
+"36
+} 0
+"9 C:\Program Files (x86)\Microchip\xc8\v2.00\pic\sources\c99\common\aodiv.c
+[v ___aodiv __aodiv `(o  1 e 8 0 ]
+{
+"12
+[v ___aodiv@quotient quotient `o  1 a 8 18 ]
+"13
+[v ___aodiv@sign sign `uc  1 a 1 17 ]
+[v ___aodiv@counter counter `uc  1 a 1 16 ]
+"9
+[v ___aodiv@dividend dividend `o  1 p 8 0 ]
+[v ___aodiv@divisor divisor `o  1 p 8 8 ]
+"43
+} 0
+"84 C:/Users/Khaled Magdy/Desktop/Capacitive_Touch.X/main.c
+[v _UART_Write_String UART_Write_String `(v  1 e 1 0 ]
+{
+"86
+[v UART_Write_String@i i `us  1 a 2 5 ]
+"84
+[v UART_Write_String@text text `*.35uc  1 p 2 1 ]
+"89
+} 0
+"78
+[v _UART_Write UART_Write `(v  1 e 1 0 ]
+{
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 wreg ]
+[v UART_Write@data data `uc  1 a 1 0 ]
+"82
+} 0
+"90
+[v _TMR1_Init TMR1_Init `(v  1 e 1 0 ]
+{
+"102
+} 0
+"51
+[v _Comp_Init Comp_Init `(v  1 e 1 0 ]
+{
+"64
+} 0
